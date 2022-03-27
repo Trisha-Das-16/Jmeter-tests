@@ -1,0 +1,515 @@
+2022-03-26 09:40:48,258 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-03-26 09:40:48,277 INFO o.a.j.JMeter: Loading user properties from: F:\New folder\apache-jmeter-5.4.3\bin\user.properties
+2022-03-26 09:40:48,277 INFO o.a.j.JMeter: Loading system properties from: F:\New folder\apache-jmeter-5.4.3\bin\system.properties
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: Version 5.4.3
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: java.version=1.8.0_311
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: os.name=Windows 10
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: os.arch=amd64
+2022-03-26 09:40:48,290 INFO o.a.j.JMeter: os.version=10.0
+2022-03-26 09:40:48,291 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-03-26 09:40:48,291 INFO o.a.j.JMeter: java.awt.headless=true
+2022-03-26 09:40:48,291 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-03-26 09:40:48,291 INFO o.a.j.JMeter: Available Processors =4
+2022-03-26 09:40:48,298 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-03-26 09:40:48,298 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-03-26 09:40:48,299 INFO o.a.j.JMeter: JMeterHome=F:\New folder\apache-jmeter-5.4.3
+2022-03-26 09:40:48,299 INFO o.a.j.JMeter: user.dir  =F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test
+2022-03-26 09:40:48,299 INFO o.a.j.JMeter: PWD       =F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test
+2022-03-26 09:40:48,301 INFO o.a.j.JMeter: IP: 192.168.0.108 Name: DESKTOP-QM2LCV9 FullName: DESKTOP-QM2LCV9
+2022-03-26 09:40:48,308 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports'
+2022-03-26 09:40:48,312 INFO o.a.j.s.FileServer: Default base='F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test'
+2022-03-26 09:40:48,313 INFO o.a.j.s.FileServer: Set new base='F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test'
+2022-03-26 09:40:48,482 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-03-26 09:40:48,506 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-03-26 09:40:48,512 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-03-26 09:40:48,520 INFO o.a.j.s.SaveService: Loading file: practice_jmeter.jmx
+2022-03-26 09:40:48,590 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-26 09:40:48,590 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-26 09:40:48,590 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-26 09:40:48,590 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-03-26 09:40:48,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-03-26 09:40:48,591 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-03-26 09:40:48,706 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-03-26 09:40:48,749 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-03-26 09:40:48,749 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: log.csv
+2022-03-26 09:40:48,750 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: F:\New folder\apache-jmeter-5.4.3\bin\reportgenerator.properties
+2022-03-26 09:40:48,763 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-03-26 09:40:48,777 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-03-26 09:40:48,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-03-26 09:40:48,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-03-26 09:40:48,781 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-03-26 09:40:48,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-03-26 09:40:48,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-03-26 09:40:48,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-03-26 09:40:48,782 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-03-26 09:40:48,783 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-03-26 09:40:48,800 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,801 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,801 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,801 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,802 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,802 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,802 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,802 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,803 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,803 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-03-26 09:40:48,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-03-26 09:40:48,805 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-03-26 09:40:48,808 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-03-26 09:40:48,809 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-03-26 09:40:48,809 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-03-26 09:40:48,809 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-03-26 09:40:48,815 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-03-26 09:40:48,816 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-26 09:40:48,816 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-03-26 09:40:48,824 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-03-26 09:40:48,824 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-03-26 09:40:49,618 INFO o.a.j.JMeter: Running test (1648266049618)
+2022-03-26 09:40:49,673 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2022-03-26 09:40:49,673 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group Thread Group.
+2022-03-26 09:40:49,673 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-03-26 09:40:49,673 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=1 delayedStart=false
+2022-03-26 09:40:49,700 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-03-26 09:40:49,700 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-03-26 09:40:49,719 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2022-03-26 09:40:49,724 INFO o.a.j.s.FileServer: Stored: F:/New folder/apache-jmeter-5.4.3/bin/Cutomers_Load_Test/customers.csv
+2022-03-26 09:40:49,775 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-QM2LCV9
+2022-03-26 09:40:49,785 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-03-26 09:40:49,788 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-03-26 09:40:49,788 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-03-26 09:40:49,788 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-03-26 09:40:49,788 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-03-26 09:40:49,810 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2022-03-26 09:40:49,912 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2022-03-26 09:40:50,021 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2022-03-26 09:40:50,067 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2022-03-26 09:40:50,078 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2022-03-26 09:40:50,079 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2022-03-26 09:40:50,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2022-03-26 09:40:50,221 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2022-03-26 09:40:50,319 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2022-03-26 09:40:50,419 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2022-03-26 09:40:50,518 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2022-03-26 09:40:50,617 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2022-03-26 09:40:50,864 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2022-03-26 09:40:50,868 INFO o.a.j.u.SSLManager: KeyStore created OK
+2022-03-26 09:40:50,868 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2022-03-26 09:40:54,162 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,162 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,162 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,163 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,163 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,164 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,164 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,164 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,164 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,164 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Calling user info generating API -----
+2022-03-26 09:40:54,853 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,853 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="52715ebc00cd9516f44a027c-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="52715ebc00cd9516f44a027c-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,857 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,857 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,857 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="8f3655c80aa418a7bea32443-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="8f3655c80aa418a7bea32443-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,857 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="d97caa7a8ea10965734408a2-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d97caa7a8ea10965734408a2-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,859 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,859 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="4171c2c25bdca6aeeb2cdd3e-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4171c2c25bdca6aeeb2cdd3e-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,868 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,869 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="47758e01cade502a3393ade6-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="47758e01cade502a3393ade6-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,878 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,878 INFO o.a.j.m.J.JSR223 PreProcessor: <html>
+<head>
+<title>Uh oh, something bad happened</title>
+</head>
+<body align='center'>
+<h1 align='center'>Uh oh, something bad happened</h1>
+<a class="twitter-timeline" data-width="450" data-height="700" data-theme="light" href="https://twitter.com/randomapi">Tweets by randomapi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8" type="6c681574fbe7165d0ca9bf81-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6c681574fbe7165d0ca9bf81-|49" defer=""></script></body>
+</html>
+
+2022-03-26 09:40:54,874 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-3.0.7.jar:3.0.7]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,874 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText$1.call(Unknown Source) ~[?:?]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,878 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText$1.call(Unknown Source) ~[?:?]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,874 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText$1.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-3.0.7.jar:3.0.7]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,874 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText$2.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-3.0.7.jar:3.0.7]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,905 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,905 INFO o.a.j.m.J.JSR223 PreProcessor: {"results":[{"gender":"male","name":{"title":"Mr","first":"August","last":"Jensen"},"location":{"street":{"number":5254,"name":"Birkevænget"},"city":"Viby Sj.","state":"Nordjylland","country":"Denmark","postcode":71163,"coordinates":{"latitude":"-30.9055","longitude":"-83.3326"},"timezone":{"offset":"-9:00","description":"Alaska"}},"email":"august.jensen@example.com","login":{"uuid":"13180f8a-bf1e-4ff0-be61-5e8fdf070f97","username":"happybird395","password":"taylor","salt":"R9e300c0","md5":"50ca00df05199a1fb31856b1110723df","sha1":"849b73b6de22c790273ae36d927b062b6f4d80e6","sha256":"b8117cc9d7587746269f10595dc9d51620830bfc4cbd6e4ab6724013a8a13c1f"},"dob":{"date":"1993-04-04T06:53:57.722Z","age":29},"registered":{"date":"2011-08-22T19:38:52.231Z","age":11},"phone":"89040954","cell":"11663680","id":{"name":"CPR","value":"040493-3708"},"picture":{"large":"https://randomuser.me/api/portraits/men/97.jpg","medium":"https://randomuser.me/api/portraits/med/men/97.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/97.jpg"},"nat":"DK"}],"info":{"seed":"eaa81106007cb5a8","results":1,"page":1,"version":"1.3"}}
+2022-03-26 09:40:54,874 ERROR o.a.j.m.JSR223PreProcessor: Problem in JSR223 script, JSR223 PreProcessor
+javax.script.ScriptException: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:320) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.jsr223.GroovyCompiledScript.eval(GroovyCompiledScript.java:71) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	at javax.script.CompiledScript.eval(CompiledScript.java:92) ~[?:1.8.0_311]
+	at org.apache.jmeter.util.JSR223TestElement.processFileOrScript(JSR223TestElement.java:217) ~[ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.modifiers.JSR223PreProcessor.process(JSR223PreProcessor.java:45) [ApacheJMeter_components.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.runPreProcessors(JMeterThread.java:965) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.executeSamplePackage(JMeterThread.java:549) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.processSampler(JMeterThread.java:489) [ApacheJMeter_core.jar:5.4.3]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:256) [ApacheJMeter_core.jar:5.4.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]
+Caused by: groovy.json.JsonException: Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<html>
+^
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValueInternal(JsonParserCharArray.java:202) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeValue(JsonParserCharArray.java:153) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.decodeFromChars(JsonParserCharArray.java:43) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.JsonParserCharArray.parse(JsonParserCharArray.java:380) ~[groovy-json-3.0.7.jar:3.0.7]
+	at org.apache.groovy.json.internal.BaseJsonParser.parse(BaseJsonParser.java:113) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper.parseText(JsonSlurper.java:204) ~[groovy-json-3.0.7.jar:3.0.7]
+	at groovy.json.JsonSlurper$parseText$0.call(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125) ~[groovy-3.0.7.jar:3.0.7]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139) ~[groovy-3.0.7.jar:3.0.7]
+	at Script1.run(Script1.groovy:15) ~[?:?]
+	at org.codehaus.groovy.jsr223.GroovyScriptEngineImpl.eval(GroovyScriptEngineImpl.java:317) ~[groovy-jsr223-3.0.7.jar:3.0.7]
+	... 9 more
+2022-03-26 09:40:54,908 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Set to environment variables-----
+2022-03-26 09:40:54,931 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:54,931 INFO o.a.j.m.J.JSR223 PreProcessor: {"results":[{"gender":"male","name":{"title":"Mr","first":"Tomé","last":"da Cunha"},"location":{"street":{"number":3638,"name":"Rua Principal"},"city":"Araras","state":"Sergipe","country":"Brazil","postcode":65955,"coordinates":{"latitude":"-74.8653","longitude":"-176.3104"},"timezone":{"offset":"-10:00","description":"Hawaii"}},"email":"tome.dacunha@example.com","login":{"uuid":"e41580e9-c374-49cb-9d27-63cd2900d1ba","username":"blackkoala462","password":"specialk","salt":"VnEsMVTJ","md5":"3c70f5774603666df6757b3e87ed79b4","sha1":"8341a69cbeeb6aebae908ab50fdd1daf348cd2bb","sha256":"1ed3702a4463a484802c6668dcc11857b95d20f361d9bcfb2327cee6f8700c0a"},"dob":{"date":"1956-09-26T18:25:11.211Z","age":66},"registered":{"date":"2016-03-01T02:02:24.728Z","age":6},"phone":"(16) 0081-6650","cell":"(05) 6199-8816","id":{"name":"","value":null},"picture":{"large":"https://randomuser.me/api/portraits/men/87.jpg","medium":"https://randomuser.me/api/portraits/med/men/87.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/87.jpg"},"nat":"BR"}],"info":{"seed":"8d8b8a4feeb50003","results":1,"page":1,"version":"1.3"}}
+2022-03-26 09:40:54,932 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Set to environment variables-----
+2022-03-26 09:40:55,044 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:55,045 INFO o.a.j.m.J.JSR223 PreProcessor: {"results":[{"gender":"male","name":{"title":"Mr","first":"Isak","last":"Sæternes"},"location":{"street":{"number":9245,"name":"Jonas Dahls vei"},"city":"Stokke","state":"Buskerud","country":"Norway","postcode":"1381","coordinates":{"latitude":"56.1296","longitude":"-11.1267"},"timezone":{"offset":"-7:00","description":"Mountain Time (US & Canada)"}},"email":"isak.saeternes@example.com","login":{"uuid":"6d2e6c2b-4925-464c-8cdd-de50f1166f83","username":"ticklishsnake849","password":"sentnece","salt":"rMlwxsUq","md5":"d9ce571b1387d4ec42705b6a6a964b39","sha1":"b8e37cdc7b1c272e2072ed33e770505a2e3fab86","sha256":"c06b8f03b0c8b27d521110e682a8d547627c800fe1f329a407d2198db28e90a1"},"dob":{"date":"1994-08-06T12:13:45.006Z","age":28},"registered":{"date":"2008-02-16T14:04:35.810Z","age":14},"phone":"81143952","cell":"98017629","id":{"name":"FN","value":"06089445181"},"picture":{"large":"https://randomuser.me/api/portraits/men/3.jpg","medium":"https://randomuser.me/api/portraits/med/men/3.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/3.jpg"},"nat":"NO"}],"info":{"seed":"d3de2817fba2d0c5","results":1,"page":1,"version":"1.3"}}
+2022-03-26 09:40:55,045 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Set to environment variables-----
+2022-03-26 09:40:55,128 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Response -----
+2022-03-26 09:40:55,128 INFO o.a.j.m.J.JSR223 PreProcessor: {"results":[{"gender":"male","name":{"title":"Mr","first":"Steven","last":"May"},"location":{"street":{"number":5084,"name":"Lovers Ln"},"city":"Port Macquarie","state":"New South Wales","country":"Australia","postcode":1804,"coordinates":{"latitude":"-89.5122","longitude":"-0.3795"},"timezone":{"offset":"-3:00","description":"Brazil, Buenos Aires, Georgetown"}},"email":"steven.may@example.com","login":{"uuid":"e9587b29-51a1-4fd1-872c-022cc004fba2","username":"blackrabbit120","password":"insomnia","salt":"xePe0Zhr","md5":"456a73d415b833929237f6c0750c200f","sha1":"4b5529fcc9628dd28267fc1d4d6fb68272c09a02","sha256":"9a4814b687abf56f197e8b140647390c4aa8179d6a29cf4d4471a2866fedd8c9"},"dob":{"date":"1953-07-12T11:46:21.161Z","age":69},"registered":{"date":"2005-06-01T09:05:21.568Z","age":17},"phone":"08-0029-6614","cell":"0475-226-191","id":{"name":"TFN","value":"484498433"},"picture":{"large":"https://randomuser.me/api/portraits/men/81.jpg","medium":"https://randomuser.me/api/portraits/med/men/81.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/81.jpg"},"nat":"AU"}],"info":{"seed":"bfc1f10a95dde84f","results":1,"page":1,"version":"1.3"}}
+2022-03-26 09:40:55,128 INFO o.a.j.m.J.JSR223 PreProcessor: ----- Set to environment variables-----
+2022-03-26 09:40:55,486 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,504 INFO o.a.j.e.J.JSR223 PostProcessor: 84661 Tomé tome.dacunha@example.com Araras (16) 0081-6650 
+2022-03-26 09:40:55,504 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,506 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,507 INFO o.a.j.e.J.JSR223 PostProcessor: 86307 customer2 customer2@example.com Nancy2 04-22-78-03-43 
+2022-03-26 09:40:55,507 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,508 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,508 INFO o.a.j.e.J.JSR223 PostProcessor: 99569 customer1 customer1@example.com Nancy1 04-22-78-03-42 
+2022-03-26 09:40:55,508 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,485 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,511 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,511 INFO o.a.j.e.J.JSR223 PostProcessor: 95281 name email address phone_number 
+2022-03-26 09:40:55,511 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,511 INFO o.a.j.e.J.JSR223 PostProcessor: 17330 customer4 customer4@example.com Nancy4 04-22-78-03-45 
+2022-03-26 09:40:55,512 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,519 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2022-03-26 09:40:55,519 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2022-03-26 09:40:55,521 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,521 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: 82689 customer2 customer2@example.com Nancy2 04-22-78-03-43 
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: 39700 August august.jensen@example.com Viby Sj. 89040954 
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: 19512 customer5 customer5@example.com Nancy5 04-22-78-03-46 
+2022-03-26 09:40:55,522 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,525 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2022-03-26 09:40:55,525 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2022-03-26 09:40:55,525 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2022-03-26 09:40:55,526 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:40:55,530 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2022-03-26 09:40:55,531 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2022-03-26 09:40:55,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2022-03-26 09:40:55,536 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2022-03-26 09:40:55,536 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2022-03-26 09:40:55,544 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2022-03-26 09:40:55,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2022-03-26 09:40:55,544 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2022-03-26 09:40:55,545 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2022-03-26 09:41:36,395 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:41:36,396 INFO o.a.j.e.J.JSR223 PostProcessor: 84899 Isak isak.saeternes@example.com Stokke 81143952 
+2022-03-26 09:41:36,396 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:41:36,401 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2022-03-26 09:41:36,402 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2022-03-26 09:41:36,489 INFO o.a.j.e.J.JSR223 PostProcessor: =============Started wrting Data to CSV file=======
+2022-03-26 09:41:36,490 INFO o.a.j.e.J.JSR223 PostProcessor: 67114 Steven steven.may@example.com Port Macquarie 08-0029-6614 
+2022-03-26 09:41:36,490 INFO o.a.j.e.J.JSR223 PostProcessor: CSV file is created... 
+2022-03-26 09:41:36,495 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2022-03-26 09:41:36,495 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2022-03-26 09:41:40,896 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2022-03-26 09:41:40,896 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2022-03-26 09:41:40,898 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-03-26 09:41:40,899 INFO o.a.j.s.FileServer: Close: F:/New folder/apache-jmeter-5.4.3/bin/Cutomers_Load_Test/customers.csv
+2022-03-26 09:41:40,905 INFO o.a.j.r.Summariser: summary =     50 in 00:00:51 =    1.0/s Avg:  3187 Min:     1 Max: 45349 Err:    19 (38.00%)
+2022-03-26 09:41:40,906 INFO o.a.j.JMeter: Generating Dashboard
+2022-03-26 09:41:40,906 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-03-26 09:41:40,966 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-03-26 09:41:41,257 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-03-26 09:41:41,257 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-03-26 09:41:41,261 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-03-26 09:41:41,261 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-03-26 09:41:41,268 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-03-26 09:41:41,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-03-26 09:41:41,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-03-26 09:41:41,273 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-03-26 09:41:41,436 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-03-26 09:41:41,436 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-03-26 09:41:41,437 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-03-26 09:41:41,437 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-03-26 09:41:41,458 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-03-26 09:41:41,459 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 350 samples
+2022-03-26 09:41:41,459 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-03-26 09:41:41,459 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-03-26 09:41:41,459 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-03-26 09:41:41,460 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-03-26 09:41:41,460 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-03-26 09:41:41,460 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-03-26 09:41:41,464 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-03-26 09:41:41,465 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-03-26 09:41:41,465 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-03-26 09:41:41,465 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-03-26 09:41:41,466 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 750 samples
+2022-03-26 09:41:41,466 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 150 samples
+2022-03-26 09:41:41,466 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 50 samples
+2022-03-26 09:41:41,467 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 50 samples produced in 418ms on channel 0
+2022-03-26 09:41:41,467 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-03-26 09:41:41,744 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-03-26 09:41:41,744 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-03-26 09:41:41,745 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-03-26 09:41:41,746 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-03-26 09:41:41,747 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports\statistics.json
+2022-03-26 09:41:41,842 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-03-26 09:41:41,850 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports
+2022-03-26 09:41:42,128 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports, creating folder structure
+2022-03-26 09:41:42,134 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'F:\New folder\apache-jmeter-5.4.3\bin\report-template' to 'F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports', got message: F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports, found non empty folder with following content [F:\New folder\apache-jmeter-5.4.3\bin\Cutomers_Load_Test\Reports\statistics.json], will be ignored
+2022-03-26 09:41:47,607 INFO o.a.j.JMeter: Dashboard generated

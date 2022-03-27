@@ -1,0 +1,51 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1648266050126,2266,Customer Login,200,OK,Thread Group 1-5,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2266,0,1933
+1648266050226,2166,Customer Login,200,OK,Thread Group 1-6,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2165,0,1826
+1648266049915,2477,Customer Login,200,OK,Thread Group 1-3,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2476,0,2137
+1648266050321,2071,Customer Login,200,OK,Thread Group 1-7,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2070,0,1731
+1648266050619,1773,Customer Login,200,OK,Thread Group 1-10,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,1772,0,1452
+1648266049906,2488,Customer Login,200,OK,Thread Group 1-2,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2488,0,2165
+1648266049906,2486,Customer Login,200,OK,Thread Group 1-1,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2485,0,2147
+1648266050521,1877,Customer Login,200,OK,Thread Group 1-9,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,1877,0,1550
+1648266050421,1971,Customer Login,200,OK,Thread Group 1-8,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,1970,0,1637
+1648266050024,2368,Customer Login,200,OK,Thread Group 1-4,text,true,,433,296,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/login,2368,0,2029
+1648266052450,302,Customer List,200,OK,Thread Group 1-4,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,302,0,0
+1648266052449,319,Customer List,200,OK,Thread Group 1-1,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,319,0,0
+1648266052446,327,Customer List,200,OK,Thread Group 1-5,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,326,0,0
+1648266052449,328,Customer List,200,OK,Thread Group 1-6,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,327,0,0
+1648266052452,330,Customer List,200,OK,Thread Group 1-7,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,330,0,0
+1648266052450,334,Customer List,200,OK,Thread Group 1-8,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,334,0,0
+1648266052454,332,Customer List,200,OK,Thread Group 1-3,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,332,0,0
+1648266052445,342,Customer List,200,OK,Thread Group 1-10,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,341,0,0
+1648266052451,340,Customer List,200,OK,Thread Group 1-2,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,340,0,0
+1648266052447,344,Customer List,200,OK,Thread Group 1-9,text,true,,4787,381,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/list,344,0,0
+1648266052772,303,Search Customer,200,OK,Thread Group 1-1,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,303,0,0
+1648266052772,303,Search Customer,200,OK,Thread Group 1-4,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,303,0,0
+1648266052784,325,Search Customer,200,OK,Thread Group 1-7,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,325,0,0
+1648266052788,324,Search Customer,200,OK,Thread Group 1-3,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,324,0,0
+1648266052785,328,Search Customer,200,OK,Thread Group 1-8,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,328,0,0
+1648266052788,326,Search Customer,200,OK,Thread Group 1-10,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,326,0,0
+1648266052777,337,Search Customer,200,OK,Thread Group 1-5,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,337,0,0
+1648266052780,335,Search Customer,200,OK,Thread Group 1-6,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,335,0,0
+1648266052793,344,Search Customer,200,OK,Thread Group 1-9,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,344,0,0
+1648266052792,345,Search Customer,200,OK,Thread Group 1-2,text,true,,356,384,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/get/101,345,0,0
+1648266054946,335,Create New Customer,503,Service Unavailable,Thread Group 1-10,text,false,,715,551,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,335,0,0
+1648266055514,4,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-10,text,false,,2102,0,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266054899,367,Create New Customer,503,Service Unavailable,Thread Group 1-3,text,false,,715,553,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,366,0,0
+1648266054906,361,Create New Customer,503,Service Unavailable,Thread Group 1-6,text,false,,715,553,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,361,0,0
+1648266055523,2,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-3,text,false,,2102,0,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055524,1,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-6,text,false,,2102,0,9,9,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266054946,317,Create New Customer,503,Service Unavailable,Thread Group 1-4,text,false,,715,550,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,317,0,0
+1648266054899,381,Create New Customer,503,Service Unavailable,Thread Group 1-9,text,false,,715,553,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,381,0,0
+1648266055529,1,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-9,text,false,,2102,0,8,8,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055534,2,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-4,text,false,,2102,0,6,6,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266054909,358,Create New Customer,503,Service Unavailable,Thread Group 1-5,text,false,,715,553,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,358,0,0
+1648266054906,374,Create New Customer,503,Service Unavailable,Thread Group 1-8,text,false,,715,553,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,373,0,0
+1648266054899,300,Create New Customer,201,Created,Thread Group 1-1,text,true,,376,531,10,10,https://customer-test-api.herokuapp.com/customer/api/v1/create,300,0,0
+1648266055541,2,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-8,text,false,,2102,0,5,5,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055539,1,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-5,text,false,,2102,0,5,5,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055046,41348,Create New Customer,503,Service Unavailable,Thread Group 1-7,text,false,,715,547,3,3,https://customer-test-api.herokuapp.com/customer/api/v1/create,41348,0,0
+1648266096397,3,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-7,text,false,,2102,0,3,3,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055129,41359,Create New Customer,503,Service Unavailable,Thread Group 1-2,text,false,,715,557,2,2,https://customer-test-api.herokuapp.com/customer/api/v1/create,41359,0,0
+1648266096491,2,Create new customer from CSV,Non HTTP response code: org.apache.http.NoHttpResponseException,Non HTTP response message: customer-test-api.herokuapp.com:443 failed to respond,Thread Group 1-2,text,false,,2102,0,2,2,https://customer-test-api.herokuapp.com/customer/api/v1/create,0,0,0
+1648266055547,45349,Create new customer from CSV,503,Service Unavailable,Thread Group 1-1,text,false,,715,531,1,1,https://customer-test-api.herokuapp.com/customer/api/v1/create,45349,0,0
